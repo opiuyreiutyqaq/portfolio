@@ -16,13 +16,16 @@
             <li><a href="#aboutme">About me</a></li>
             <li><a href="#skill-part">Skills</a></li>
             <li class="dropdown">
-                <a href="./public/html/projects.html">Projects&#8595;</a>
+                <a href="#pikachu-labview">Projects&#8595;</a>
                 <ul class="dropdown-navbar">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./public/html/projects.html">Projects</a></li>
-                    <li><a href="./public/html/about.html">About me</a></li>
+                    <li><a href="#pikachu-labview">Pikachu-volleyball of labview</a></li>
+                    <li><a href="#niexie_clock">Niexie Clock</a></li>
+                    <li><a href="#pikachu-fpga">Pikachu-volleyball of FPGA</a></li>
+                    <li><a href="#computer-sec">Hacking IoT device</a></li>
+                    <li><a href="#cube-teacher">Cube Teacher</a></li>
                 </ul>
             </li>
+            <li><a href="#contact-us">Contact us</a></li>
         </ul>
     </nav>
     <main>
@@ -82,6 +85,7 @@
                         <i class="devicon-processing-plain colored"></i>
                         <i class="devicon-cplusplus-plain colored"></i>
                         <i class="devicon-python-plain colored"></i>
+                        <i class="devicon-labview-plain colored"></i>
                     </div>
                 </div>
                 <div class="learn">
@@ -100,10 +104,70 @@
             <div class="skills-text">Skills</div>
         </div>
         <div class="projects">
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iusto atque necessitatibus? Nostrum, provident aliquid? Doloribus voluptatem libero amet, quos repellendus deserunt eligendi recusandae nostrum pariatur quod vel ratione praesentium.</div>
-            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat natus facere sed quae fuga dolorem, sapiente explicabo nam accusantium! In consequatur deleniti delectus natus, consequuntur dolorum quidem earum hic ratione!</div>
+            <div class="project-title"><p>Projects</p></div>
+            <div class="project-list">
+                <div class="pikachu-labview" id="pikachu-labview">
+                    <iframe src="https://www.youtube.com/embed/6ggoLaXegXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="pikachu-labview-text project-item">
+                        <h3>Pikachu-volleyball</h3>
+                        <p>2020.01 with Eddie Wu</p>
+                        <br>
+                        <p>Game build from Labview.</p>
+                        <p>This is my first project in computer science course.</p>
+                        <p>We take a month to finished the whole project,<br> and also realize important of version control.</p>
+                    </div>
+                </div>         
+                <div class="niexie_clock" id="niexie_clock">
+                    <img src="public/img/niexie_clock.jpg">
+                    <div class="niexie_clock-text  project-item">
+                        <h3>Nixie Clock of STM32</h3>
+                        <p>2021.01.08 with Eddie Wu</p>
+                        <br>
+                        <p>We using C language to control STM32.This is my first time to learn about embedded system and how sensor work. As you can see, this is a clock with 6 nixie. We also support remote control to setting out clock, timer.</p>
+                        <br>
+                        <p>This is most cool project I made. We were astonished cause our team  got highest technical score judge from TA and Professor!</p>
+                    </div>
+                </div>   
+                <div class="pikachu-fpga" id="pikachu-fpga">
+                    <iframe src="https://www.youtube.com/embed/uYjICYDUH-k?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="pikachu-fpga-text  project-item">
+                        <h3>Pikachu-volleyball of FPGA</h3>
+                        <p>2021.01 with Eddie Wu</p>
+                        <br>
+                        <p>Pikachu-volleyball game again.</p>
+                        <p>This is final project of Digital Circuit Lab.</p>
+                        <p>, and the topic of term project is limited by TA. </p>
+                        <p>Using Verilog to build the porject definitely harder than Labview, but we made it!</p>
+                    </div>
+                </div>    
+                <div class="computer-sec" id="computer-sec">
+                    <iframe src="https://www.youtube.com/embed/q-ZZZAx_AQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="computer-sec-text  project-item">
+                        <h3>Hacking IoT device.</h3>
+                        <p>2021.06.21 with Byke</p>
+                        <br>
+                        <p>This is project of Computer Security Capstone.</p>
+                        <p>This is my first time to learn course about security, </p>
+                        <p>and I learned lot of attack of network and system.</p>
+                        <p>In the project, we implement Man in the Middle attack to hack the IoT device</p>
+                        <p>After attacking, we intercept the packet from AP to IoT device, hence user cannot open the device by IoT device.</p>
+                    </div>
+                </div>
+                <div class="cube-teacher" id="cube-teacher">
+                    <iframe src="https://www.youtube.com/embed/RT8tdaHqzpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="cube-teacher-text">
+                        <h3>Cube Teacher of Raspberry Pi and camera</h3>
+                        <p>2021.06 with Eddie Wu and our Professor</p>
+                        <br>
+                        <p>The project of Computer Science and Engineering Projects (I)</p>
+                        <p>We take 4 months to build solver of Rubik's cube based on Rpi and Camera.It's a large project and also my first time to learn about Computer Vision, Processing Language and P5.js.</p>
+                        <br>
+                        <p>We met some hard problem in process, e.q. how to detect Rubik's cube only by 6 colors? how to detect action of user? the algorithm of action detection is too slow, etc.</p>                            
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="contact-us">
+        <div class="contact-us" id="contact-us">
             <p>Get in touch!</p>
             <form>
                 <div class="formcontent">
@@ -121,10 +185,10 @@
     </main>
     <footer>
         <ul>
-            <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-github"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100005885679898" class="fa fa-facebook"></a></li>
+            <li><a href="https://github.com/chilin0525" class="fa fa-github"></a></li>
             <li><a href="#" class="fa fa-instagram"></a></li>
-            <li><a href="#" class="fa fa-youtube"></a></li>
+            <li><a href="https://www.youtube.com/user/sky1023sly/videos" class="fa fa-youtube"></a></li>
         </ul>
         <p>copyright &copy;2022<a href="#"> Chilin Chiou.</a> All Rights Reserverd</p>
     </footer>

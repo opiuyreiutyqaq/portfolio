@@ -190,7 +190,7 @@ main{
     }
     .skills{
 
-        margin-top: 25vh;
+        margin-top: 20vh;
 
         height: 80vh;
         background: #171c28;
@@ -259,13 +259,108 @@ main{
             }
         }
     }
+
     .projects{
-        height: 60vh;
+        margin-top: 20vh;
+        width: 100%;
+        // height: 60vh;
         color:white;
         background: #171c28;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .project-title{
+            font-size: 50px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .project-list{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            
+            h3{
+                font-size: 30px;
+            }
+            
+            iframe{
+                width: 40%;
+                height: 30vh;
+            }
+
+            img{
+                width: 40%;
+                height: 30vh;
+            }
+
+            .pikachu-labview{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;  
+
+                .pikachu-labview-text{
+                    width: 30vw;;
+                }
+            }
+
+            .pikachu-fpga{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;  
+
+                .pikachu-fpga-text{
+                    width: 30vw;
+                }
+            }
+            .computer-sec{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;  
+
+                .computer-sec-text{
+                    width: 30vw;
+                }
+            }
+            .niexie_clock{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;  
+
+                .niexie_clock-text{
+                    width: 30vw;
+                }
+            }
+            .cube-teacher{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around; 
+                
+                .cube-teacher-text{
+                    width: 30vw;
+                }
+            }
+
+            .project-item{
+                margin-top: 10vh;
+                margin-bottom: 10vh;
+            }
+
+        }
     }
 
     .contact-us{
+        margin-top: 20vh;
+
         width: 100%;
         height: 40vh;
         color: white;
@@ -316,7 +411,7 @@ main{
 }
 
 footer{
-    margin-top: 30vh;
+    margin-top: 20vh;
 
     background: #171c28;;
     height: 20vh;
